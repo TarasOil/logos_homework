@@ -24,3 +24,6 @@ hs_err_pid*
 
 # Ignore idea configuration
 */.idea/
+
+# Ignore completed projects
+java_db_001/src/
