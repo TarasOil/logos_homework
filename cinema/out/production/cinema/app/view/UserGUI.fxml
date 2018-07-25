@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="667.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.UserController">
+   <children>
+      <TableView fx:id="filmTable" layoutX="50.0" layoutY="133.0" prefHeight="388.0" prefWidth="431.0">
+         <columns>
+            <TableColumn fx:id="filmNameCol" prefWidth="79.0" text="Name" />
+            <TableColumn fx:id="filmGenreCol" prefWidth="71.0" text="Genre" />
+            <TableColumn fx:id="filmYearCol" prefWidth="74.0" text="Year" />
+            <TableColumn fx:id="filmProducerCol" prefWidth="130.0" text="Producer" />
+            <TableColumn fx:id="filmLengthCol" prefWidth="76.0" text="Length" />
+         </columns>
+      </TableView>
+      <TableView fx:id="sessionTable" layoutX="607.0" layoutY="133.0" prefHeight="388.0" prefWidth="338.0">
+         <columns>
+            <TableColumn fx:id="sessionFilmCol" prefWidth="138.0" text="Film" />
+            <TableColumn fx:id="sessionHallCol" prefWidth="67.0" text="Hall" />
+            <TableColumn fx:id="sessionDateCol" prefWidth="132.0" text="Date" />
+         </columns>
+      </TableView>
+      <ComboBox fx:id="weekComboBox" layoutX="688.0" layoutY="74.0" prefHeight="31.0" prefWidth="187.0" promptText="-" />
+      <Button fx:id="restoreButton" layoutX="688.0" layoutY="547.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="187.0" text="Restore" />
+   </children>
+</AnchorPane>

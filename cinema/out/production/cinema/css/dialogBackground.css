@@ -1,0 +1,4 @@
+.root {
+	-fx-background-image: url(dialogBackground.png);
+	-fx-background-repeat: no-repeat;
+}

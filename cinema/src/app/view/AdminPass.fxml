@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.net.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="320.0" prefWidth="480.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.AdminPassController">
+   <children>
+      <Label layoutX="167.0" layoutY="113.0" text="Enter password:">
+         <font>
+            <Font size="21.0" />
+         </font></Label>
+      <Button fx:id="confirmButton" layoutX="187.0" layoutY="223.0" mnemonicParsing="false" text="Confirm" />
+      <PasswordField fx:id="passField" layoutX="147.0" layoutY="160.0" />
+   </children>
+</AnchorPane>
