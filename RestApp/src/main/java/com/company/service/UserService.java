@@ -2,13 +2,16 @@ package com.company.service;
 
 import java.util.List;
 
+import com.company.domain.UserDTO;
 import com.company.entity.User;
 
 public interface UserService {
 	
-	void saveUser(User user);
+	void saveUser(UserDTO userDTO);
 	
-	User findUserById(Long id);
+	UserDTO findUserById(Long id);
 	
-	List<User> findAllUsers();
+	List<UserDTO> findAllUsers();
+	
+	UserDTO findByEmail(String email);
 }
